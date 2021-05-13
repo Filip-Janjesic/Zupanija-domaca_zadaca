@@ -31,16 +31,17 @@ alter table zupanija add foreign key (zupan) references zupan (sifra);
 alter table mjesto add foreign key (opcina) references opcina (sifra);
 
 insert into  zupanija (naziv,zupan) values
-('',''),
-('',''),
-('','');
+('Osjecko-baranjska zupanija','Ivan Anusic'),
+('Vukovarsko-srijemska zupanija','Bozo Galic'),
+('Bjelovarsko-bilogorska zupanija','Damir Bajs');
+
 insert into opcina (zupanija, naziv) values
-('',''),
-('',''),
-('',''),
-('',''),
-('',''),
-('','');
+('Osjecko-baranjska zupanija',''),
+('Osjecko-baranjska zupanija',''),
+('Vukovarsko-srijemska zupanija',''),
+('Vukovarsko-srijemska zupanija',''),
+('Bjelovarsko-bilogorska zupanija',''),
+('Bjelovarsko-bilogorska zupanija','');
 insert into mjesto (opcina, naziv) values
 ('',''),
 ('',''),
