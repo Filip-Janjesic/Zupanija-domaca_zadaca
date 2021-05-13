@@ -30,4 +30,7 @@ alter table opcina add foreign key (zupanija) references zupanija (sifra);
 alter table zupanija add foreign key (zupan) references zupan (sifra);
 alter table mjesto add foreign key (opcina) references opcina (sifra);
 
-
+insert into  zupanija (naziv,zupan) values
+('',''),
+('',''),
+('','');
