@@ -2,7 +2,7 @@ drop database if exists zupanija;
 create database zupanija;
 use zupanija;
 
-create table zupanija(
+create table zupanija (
 sifra int not null primary key auto_increment,
 naziv varchar (50) not null,
 zupan varchar (50) not null
@@ -27,6 +27,8 @@ prezime varchar (50),
 );
 
 alter table opcina add foreign key (zupanija) references zupanija (sifra);
+alter table zupanija add foreign key (zupan) references zpan (sifra);
+
 
 insert into zupanija (naziv,zupan) values
 ('Osjecko-baranjska zupanija','Ivan Anusic'),
