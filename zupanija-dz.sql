@@ -34,3 +34,23 @@ insert into  zupanija (naziv,zupan) values
 ('',''),
 ('',''),
 ('','');
+insert into opcina (zupanija, naziv) values
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('','');
+insert into mjesto (opcina, naziv) values
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('',''),
+('','');
