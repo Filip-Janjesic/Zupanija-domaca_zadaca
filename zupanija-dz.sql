@@ -20,7 +20,11 @@ opcina int,
 naziv varchar (50)
 );
 
-create
+create table zupan(
+sifra int not null primary key auto_increment,
+ime varchar (50),
+prezime varchar (50),
+);
 
 alter table opcina add foreign key (zupanija) references zupanija (sifra);
 
