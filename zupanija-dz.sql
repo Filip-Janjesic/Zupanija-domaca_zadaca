@@ -43,8 +43,8 @@ insert into opcina (zupanija, naziv) values
 ('Bjelovarsko-bilogorska zupanija','Daruvar'),
 ('Bjelovarsko-bilogorska zupanija','Sirac');
 insert into mjesto (opcina, naziv) values
-('Donji Miholjac',''),
-('Donji Miholjac',''),
+('Donji Miholjac','Golinci'),
+('Donji Miholjac','Podgajci Podravski'),
 ('Darda',''),
 ('Darda',''),
 ('Otok',''),
