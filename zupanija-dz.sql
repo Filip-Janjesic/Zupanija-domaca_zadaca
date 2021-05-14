@@ -5,7 +5,7 @@ use zupanija;
 create table zupanija(
 sifra int not null primary key auto_increment,
 naziv varchar (50) not null,
-zupan int
+zupan varchar (50) not null
 );
 
 create table opcina(
