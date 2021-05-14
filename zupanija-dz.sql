@@ -35,13 +35,14 @@ insert into  zupanija (naziv,zupan) values
 ('Vukovarsko-srijemska zupanija','Bozo Galic'),
 ('Bjelovarsko-bilogorska zupanija','Damir Bajs');
 
+
 insert into opcina (zupanija, naziv) values
-('Osjecko-baranjska zupanija',''),
-('Osjecko-baranjska zupanija',''),
-('Vukovarsko-srijemska zupanija',''),
-('Vukovarsko-srijemska zupanija',''),
-('Bjelovarsko-bilogorska zupanija',''),
-('Bjelovarsko-bilogorska zupanija','');
+('Osjecko-baranjska zupanija','Donji Miholjac'),
+('Osjecko-baranjska zupanija','Darda'),
+('Vukovarsko-srijemska zupanija','Otok'),
+('Vukovarsko-srijemska zupanija','Ilok'),
+('Bjelovarsko-bilogorska zupanija','Daruvar'),
+('Bjelovarsko-bilogorska zupanija','Sirac');
 insert into mjesto (opcina, naziv) values
 ('',''),
 ('',''),
