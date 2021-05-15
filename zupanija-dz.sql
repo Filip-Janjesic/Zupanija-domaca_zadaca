@@ -30,28 +30,29 @@ alter table opcina add foreign key (zupanija) references zupanija (sifra);
 alter table zupanija add foreign key (zupan) references zupan (sifra);
 alter table mjesto add foreign key (opcina) references opcina (sifra);
 
-insert into  zupanija (naziv,zupan) values
-('Osjecko-baranjska zupanija','Ivan Anusic'),
-('Vukovarsko-srijemska zupanija','Bozo Galic'),
-('Bjelovarsko-bilogorska zupanija','Damir Bajs');
+insert into  zupanija (naziv) values
+('Osjecko-baranjska zupanija'),
+('Vukovarsko-srijemska zupanija'),
+('Bjelovarsko-bilogorska zupanija');
 
 insert into opcina (zupanija, naziv) values
-('Osjecko-baranjska zupanija','Donji Miholjac'),
-('Osjecko-baranjska zupanija','Darda'),
-('Vukovarsko-srijemska zupanija','Otok'),
-('Vukovarsko-srijemska zupanija','Ilok'),
-('Bjelovarsko-bilogorska zupanija','Daruvar'),
-('Bjelovarsko-bilogorska zupanija','Sirac');
+(1,'Donji Miholjac'),
+(1,'Darda'),
+(2,'Otok'),
+(2,'Ilok'),
+(3,'Daruvar'),
+(3,'Sirac');
+
 insert into mjesto (opcina, naziv) values
 ('Donji Miholjac','Golinci'),
 ('Donji Miholjac','Podgajci Podravski'),
 ('Darda','Mece'),
 ('Darda','Svajcarnica'),
-('Otok',''),
-('Otok',''),
-('Ilok',''),
-('Ilok',''),
-('Daruvar',''),
-('Daruvar',''),
-('Sirac',''),
-('Sirac','');
+('Otok','n/a'),
+('Otok','n/a'),
+('Ilok','n/a'),
+('Ilok','n/a'),
+('Daruvar','Donji Daruvar'),
+('Daruvar','Gornji Daruvar'),
+('Sirac','n/a'),
+('Sirac','n/a');
