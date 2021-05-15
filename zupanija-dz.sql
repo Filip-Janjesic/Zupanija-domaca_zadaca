@@ -44,14 +44,14 @@ insert into opcina (zupanija, naziv) values
 (3,'Sirac');
 
 insert into mjesto (opcina, naziv) values
-('Donji Miholjac','Golinci'),
-('Donji Miholjac','Podgajci Podravski'),
-('Darda','Mece'),
-('Darda','Svajcarnica'),
-('Otok','n/a'),
-('Otok','n/a'),
-('Ilok','n/a'),
-('Ilok','n/a'),
+(4,'Golinci'),
+(4,'Podgajci Podravski'),
+(5,'Mece'),
+(5,'Svajcarnica'),
+(6,'n/a'),
+(6,'n/a'),
+(7,'n/a'),
+(7,'n/a'),
 ('Daruvar','Donji Daruvar'),
 ('Daruvar','Gornji Daruvar'),
 ('Sirac','n/a'),
