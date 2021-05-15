@@ -5,7 +5,7 @@ use zupanija;
 create table zupanija(
 sifra int not null primary key auto_increment,
 naziv varchar (50) not null,
-zupan varchar (50) not null
+zupan int
 );
 
 create table opcina(
@@ -45,8 +45,8 @@ insert into opcina (zupanija, naziv) values
 insert into mjesto (opcina, naziv) values
 ('Donji Miholjac','Golinci'),
 ('Donji Miholjac','Podgajci Podravski'),
-('Darda',''),
-('Darda',''),
+('Darda','Mece'),
+('Darda','Svajcarnica'),
 ('Otok',''),
 ('Otok',''),
 ('Ilok',''),
