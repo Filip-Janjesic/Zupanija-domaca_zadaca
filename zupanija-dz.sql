@@ -56,3 +56,4 @@ insert into mjesto (opcina, naziv) values
 ('Daruvar','Gornji Daruvar'),
 ('Sirac','n/a'),
 ('Sirac','n/a');
+
